@@ -105,7 +105,7 @@ Import-Module Get-ChildItemColor
 Import-Module WindowsConsoleFonts
 Set-Alias l Get-ChildItemColor -option AllScope
 Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
-Set-Theme Paradox
+Set-PoshPrompt aliens
 "@ > $PROFILE
 chcp 65001
 Set-PSReadlineOption -EditMode Emacs
@@ -115,7 +115,7 @@ Import-Module Get-ChildItemColor
 Import-Module WindowsConsoleFonts
 Set-Alias l Get-ChildItemColor -option AllScope
 Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
-Set-Theme Paradox
+Set-PoshPrompt aliens
 git clone https://github.com/powerline/fonts.git
 cd .\fonts\
 .\install.ps1
